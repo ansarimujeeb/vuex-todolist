@@ -1,0 +1,16 @@
+import Vue from "vue";
+import Vuex from "vuex";
+import TodosItem from './modules/TodosItem';
+//import * as feedbackSessionStore from "@/store/modules/feedbackSessionStore.js";
+
+
+// load Vuex
+Vue.use(Vuex);
+
+
+// Create Store
+export default new Vuex.Store({
+    modules: {
+        TodosItem 
+    }
+});
