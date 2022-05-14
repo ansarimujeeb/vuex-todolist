@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h3> Add Todo</h3>
         <div class="add">
             <form @submit="onSubmit">
